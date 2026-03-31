@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
-
 :root {
     --navy: #0a1628;
     --navy-mid: #122040;
@@ -32,7 +29,6 @@
     overflow-x: hidden;
   }
 
-  /* ─── NAV ─── */
   nav {
     position: fixed; top: 0; left: 0; right: 0;
     z-index: 1000;
@@ -100,7 +96,6 @@
   }
   .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); transition: all 0.3s; }
 
-  /* ─── HERO ─── */
   #home {
     height: 100vh; min-height: 680px;
     position: relative;
@@ -233,7 +228,6 @@
     margin-top: 2px; display: block;
   }
 
-  /* ─── SECTIONS ─── */
   section { padding: 6rem 8%; }
 
   .section-header { text-align: center; margin-bottom: 4rem; }
@@ -261,7 +255,6 @@
     max-width: 540px; margin: 0 auto; line-height: 1.8;
   }
 
-  /* ─── LISTINGS ─── */
   #listings { background: var(--off-white); }
 
   .listings-grid {
@@ -353,7 +346,6 @@
     background: var(--navy); color: var(--white);
   }
 
-  /* ─── ABOUT ─── */
   #about { background: var(--white); }
 
   .about-inner {
@@ -440,7 +432,6 @@
 
   .achievement-item span { font-size: 0.78rem; color: var(--gray); display: block; }
 
-  /* ─── CONTACT ─── */
   #contact { background: var(--navy); }
 
   #contact .section-title { color: var(--white); }
@@ -553,7 +544,6 @@
     box-shadow: 0 8px 24px rgba(201,168,76,0.3);
   }
 
-  /* ─── FOOTER ─── */
   footer {
     background: #060e1a;
     padding: 2rem 8%;
@@ -581,7 +571,6 @@
   }
   .footer-links a:hover { color: var(--gold); }
 
-  /* ─── TOAST ─── */
   .toast {
     position: fixed; bottom: 2rem; right: 2rem;
     background: var(--navy); border: 1px solid var(--gold);
@@ -594,7 +583,6 @@
 
   .toast.show { opacity: 1; transform: translateY(0); }
 
-  /* ─── FADE-IN OBSERVER ─── */
   .reveal {
     opacity: 0; transform: translateY(28px);
     transition: opacity 0.7s ease, transform 0.7s ease;
@@ -602,7 +590,6 @@
 
   .reveal.visible { opacity: 1; transform: none; }
 
-  /* ─── MOBILE ─── */
   @media (max-width: 900px) {
     nav { padding: 0 5%; }
     .nav-links { display: none; }
