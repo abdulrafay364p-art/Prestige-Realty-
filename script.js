@@ -1,16 +1,13 @@
-  // Mobile nav toggle
   function toggleNav() {
     document.getElementById('navLinks').classList.toggle('open');
   }
 
-  // Close nav on link click
   document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
       document.getElementById('navLinks').classList.remove('open');
     });
   });
 
-  // Scroll reveal
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
@@ -22,12 +19,10 @@
   }, { threshold: 0.1 });
   reveals.forEach(el => observer.observe(el));
 
-  // Stagger card reveals
   document.querySelectorAll('.property-card').forEach((card, i) => {
     card.style.transitionDelay = `${i * 0.07}s`;
   });
 
-  // Form submit
   function submitForm() {
     const name = document.getElementById('firstName').value;
     const email = document.getElementById('email').value;
@@ -46,8 +41,6 @@
     document.getElementById('message').value = '';
   }
 
-  // Smooth active nav highlight
-  const sections = document.querySelectorAll('section[id], #home');
   const navLinks = document.querySelectorAll('.nav-links a');
 
   window.addEventListener('scroll', () => {
