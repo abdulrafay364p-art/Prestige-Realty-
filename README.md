@@ -36,41 +36,9 @@ Prestige-Realty-Estate/
 └── README.md
 ```
 
-## 💻 Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/prestige-realty-estate.git
-```
-
-2. Navigate to the project folder:
-
-```bash
-cd prestige-realty-estate
-```
-
-3. Open `index.html` in your browser.
-
-## 🎯 Project Goal
-
-The goal of this project is to create a professional and visually appealing real estate website that helps users explore properties and learn about real estate services with ease.
-
-## 📸 Screenshots
-
-Add screenshots of the website here.
-
-```markdown
-![Homepage](screenshots/homepage.png)
-```
-
 ## 📧 Contact
 
 For any suggestions or feedback, feel free to reach out.
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
 
 ---
 
